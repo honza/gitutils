@@ -1,15 +1,13 @@
-"""
-Git Chart - Number of lines changed per author
-Auhthor: honza <http://github.com/honza>
-
-Usage: Drop this file into a Git repo and run it!
-"""
-
 from commands import getoutput
 import sys
 
 
 class GitChart(object):
+    """
+    This will run through all the files git track, and see how many lines each
+    person has touched. Unlike *blamer* this will include all lines, not just
+    the ones still visible.
+    """
 
     def __init__(self):
         authors = self.get_authors()

@@ -22,6 +22,15 @@ or:::
 
     $ chart
 
+**blamer** will run through all the files git tracks, and see how many lines
+each user has written/edited. You will get a number of lines and percentage.
+Throughout the course of a project, you will add lines and your lines will be
+deleted. This shows you how much of your code is still in the project now.
+
+**chart** will run through all the files git track, and see how many lines each
+person has touched. Unlike *blamer* this will include all lines, not just the
+ones still visible.
+
 License
 -------
 
