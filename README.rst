@@ -18,7 +18,9 @@ Usage
 
     $ blamer
 
-or:::
+or:
+
+::
 
     $ chart
 
