@@ -1,0 +1,3 @@
+from gitutils import GitChart
+
+GitChart()
