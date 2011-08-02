@@ -7,6 +7,8 @@ repo.
 Install
 -------
 
+::
+
     $ pip install -e  git://github.com/honza/gitutils.git#egg=gitutils
 
 Usage
